@@ -1,0 +1,10 @@
+x1,x2,x3=num(int,input().split())
+if(x1>x2):
+  if(x1>x3):
+    print(x1)
+  else:
+    print(x3)
+  elif(x2>x3):
+    print(x2)
+  else:
+    print(x3)
